@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+    .wrapper {
+        margin-left: 11%;
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        background-size: cover;
+        width: 740px;
+        margin-left: 2%;
+    }
+
+    .country_info {
+        margin-top: 250px;
+    }
+
+    .country_query {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        background-image: url(../images/bg_media.jpg);
+        background-repeat: no-repeat;
+        
+    }
+    .wrapper {
+        background-image: none;
+        background-color: #d8d4c5;
+        flex-direction: column;
+        width: 98%;
+        margin-left: 5px;
+    }
+
+    .country_info {
+        transform: rotate(0deg);
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .country_query {
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .wrapper {
+         margin-left: 4px;
+    }
+    
+    .country_query {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 320px) {
+    .country_query {
+        margin-left: 40px;
+    }
+}
